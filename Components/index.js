@@ -1,0 +1,13 @@
+export { default as Footer } from "./Footer";
+export { default as NavBar } from "./NavBar";
+export { default as Hero } from "./Hero";
+export { default as PopUp } from "./PopUp";
+export { default as Card } from "./Card";
+export { default as Logo } from "./Logo";
+export { default as Menu } from "./menu";
+export { default as ICON } from "./ICON";
+export { default as Close } from "./Close";
+export { default as Arrow } from "./Arrow";
+export { default as Loader } from "./Loader";
+export { default as Error } from "./Error";
+export { default as Success } from "./Success";
