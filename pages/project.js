@@ -1,6 +1,5 @@
-import { useEffect } from 'react';
+import { useEffect, useContext, useState } from 'react';
 import { useRouter } from 'next/router';
-import { useContext, useState } from 'react';
 import { CrowdFundingContext } from '../Context/CroudFunding';
 import { Card, NavBar, Footer, Loader } from '../Components';
 
@@ -9,16 +8,6 @@ export default function Project() {
   const { getCampaigns, currentAccount, connectWallet } = useContext(CrowdFundingContext);
   const [allcampaign, setAllcampaign] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-
-  // Redirect to localhost:3000/project if not running locally
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
-      if (!isLocal) {
-        window.location.href = 'http://localhost:3000/project';
-      }
-    }
-  }, []);
 
   useEffect(() => {
     const fetchData = async () => {
