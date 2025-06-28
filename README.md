@@ -127,19 +127,3 @@ This platform empowers project creators to raise capital directly from a global 
 
 ## 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
-
----
-
-## 🙏 Credits
-- Inspired by the [blockchaincoders.com](https://www.theblockchaincoders.com/) community.
-- UI/UX and smart contract logic by project contributors.
-
----
-
-**Showcase your skills!**
-- Add this project to your portfolio or CV to demonstrate full-stack web3 development, smart contract integration, and modern frontend engineering.
